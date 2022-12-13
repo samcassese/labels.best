@@ -2,6 +2,10 @@ main {
     background: linear-gradient(to bottom, #660066 0%, #0066cc 100%);
 }
 
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
 h1, h2, a, .navbar-brand, .nav-link {
     color: white;
 }
@@ -9,5 +13,21 @@ h1, h2, a, .navbar-brand, .nav-link {
 h1, h2 {
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.card {
+    margin-bottom: 2rem;
+}
+
+
+.card-price, .card-title, .card-text, .list-group-item, .card-link {
+    text-align: center;
+}
+
+
+.row {
+    justify-content: space-around;
 }
