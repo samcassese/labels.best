@@ -1,0 +1,13 @@
+main {
+    background: linear-gradient(to bottom, #660066 0%, #0066cc 100%);
+}
+
+h1, h2, a, .navbar-brand, .nav-link {
+    color: white;
+}
+
+h1, h2 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2.5rem;
+}
