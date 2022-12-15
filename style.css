@@ -14,18 +14,19 @@ h1, h2 {
     margin-bottom: 3rem;
 }
 
-h1 {
-    margin-left: 3rem;
-}
-
 
 .card {
     margin-bottom: 2rem;
 }
 
 
-.card-price, .card-title, .card-text, .list-group-item, .card-link {
+.card-price, .card-title, .card-text, .list-group-item, .card-link  {
     text-align: center;
+}
+
+.card-link {
+    display: flex;
+    justify-content: center;
 }
 
 
