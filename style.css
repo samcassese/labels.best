@@ -33,3 +33,16 @@ h1, h2 {
     margin-left: 5rem;
     margin-right: 5rem;
 }
+
+.accordion-body {
+    color: white;
+}
+
+.accordion-item {
+    background-color: transparent;
+    border: none;
+}
+
+.accordion-header {
+    margin-left: 0px;
+}
