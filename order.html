@@ -10,12 +10,6 @@
     <link href="style.css" rel="stylesheet">
   </head>
 
-  <!--
-    Notes:
-    - center "open" button in pricing cards
-    - add anchors to jump from section to section with nav bar
-  -->
-
   <body>
   <main>
 
@@ -60,9 +54,19 @@
 
     <!--ORDER FORM-->
     <form>
-
-        <input type="text">
-
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">This will be used to send your label to you.</div>
+      </div>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Weight</option>
+        <option value="1">0-3 lb. ($3)</option>
+        <option value="2">3-10 lb. ($5)</option>
+        <option value="3">10-20 lb. ($10)</option>
+      </select>
+      <br><br>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 
     
