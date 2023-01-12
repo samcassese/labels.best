@@ -53,13 +53,15 @@
     <h2 id="pricing"><strong>Order Here</strong></h2>
 
     <!--ORDER FORM-->
-    <form>
+    <div class="order-form">
+    <form action="https://api.sheetmonkey.io/form/d4Zz813gV6vgDHbkCS6xJR" method="post">
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">This will be used to send your label to you.</div>
+        <label for="exampleInputEmail1" class="form-label" style="color: white;">Email address</label>
+        <input type="email" name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text" style="color:azure;">This is where your label will be sent.</div>
       </div>
-      <select class="form-select" aria-label="Default select example">
+      <label for="exampleInputEmail1" class="form-label" style="color: white;">Weight</label>
+      <select class="form-select" name="Name" aria-label="Default select example">
         <option selected>Weight</option>
         <option value="1">0-3 lb. ($3)</option>
         <option value="2">3-10 lb. ($5)</option>
@@ -68,7 +70,15 @@
       <br><br>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    </div>
 
+
+    <form action="https://api.sheetmonkey.io/form/d4Zz813gV6vgDHbkCS6xJR" method="post">
+      <label>Your Name: <input type="text" name="Name" required /></label>
+      <label>Your Email: <input type="email" name="Email" required /></label>
+      <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+      <input type="submit" value="Sign Up" />
+    </form>
     
     <br><br><br><br>
 

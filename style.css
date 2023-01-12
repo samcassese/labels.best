@@ -51,3 +51,8 @@ h1, h2 {
 .accordion-header {
     margin-left: 0px;
 }
+
+.order-form {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
